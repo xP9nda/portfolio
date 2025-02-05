@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Joshua's Portfolio",
   description: "Portfolio of Joshua Cochrane",
 
-  base: '/portfolio/',
+  base: '/',
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
