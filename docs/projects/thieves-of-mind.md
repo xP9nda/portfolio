@@ -15,6 +15,7 @@ next: false
 ### Achievements
 - 300+ visits on Roblox
 - 88% positive like ratio
+- Achieved 2nd place in the game jam
 
 ## Overview
 Created as a project under my Roblox studio to participate in a 24 hour game jam with the theme 'Mind Control', Thieves of Mind has you play as an alien marauder with mind control abilities - taking control of the minds of residents in the strange place you find yourself in. The game allows players to steal the belongings of residents, selling them to earn money to upgrade their supernatural abilities.
