@@ -5,21 +5,30 @@ next: false
 
 # Ender Pouch
 
-### My Role
-- Sole Programmer
+::: info My Role
+Sole Programmer
+:::
 
-### Created Using
+::: info Software & Languages Used
 - Java
+- IntelliJ IDEA
+:::
 
-### Achievements
-- 210+ downloads on Modrinth
+::: info Achievements
+- 250+ downloads across all platforms
+:::
 
 ## Overview
-I created a plugin for Minecraft servers that introduces several ender chest related quality of life features.
+::: tip Context
+This plugin was developed over a few days as a personal project to help familiarize myself with Java programming.
+:::
 
 <br />
 
-This plugin allows staff members to give players "ender pouch" items that act as portable ender chests, allowing players to access their ender chest inventory from anywhere. The plugin also introduces a feature that allows players to access their ender chest inventory from anywhere by using a command, and provides staff utility to open and modify any player's ender chest.
+I created a plugin for Minecraft servers that introduces several ender chest related quality of life features.
+
+<br />
+This plugin lets staff grant players "ender pouch" items, enabling portable access to their ender chest inventory. Players can also use a command to access their ender chest from anywhere, while staff can view and modify any player's ender chest.
 
 ## Showcase
 The gallery below shows some screenshots from the project.

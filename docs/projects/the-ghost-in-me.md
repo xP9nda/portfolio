@@ -5,16 +5,20 @@ next: false
 
 # The Ghost in Me
 
-### My Role
-- Engine Work, Programming, UI Implementation
+::: info My Role
+Sole Programmer
+:::
 
-### Created Using
-- Unity Engine
+::: info Software & Languages Used
 - C#
+- Unity Engine
 - Aseprite
+:::
 
 ## Overview
-This was the first project I made in the Unity engine, and I created it as part of a 5 day long game jam during my college degree.
+::: tip Context
+This game was developed as part of a game jam held by my college, where I created this 2D puzzle/platformer game in Unity over the course of 5 days.
+:::
 
 <br />
 
@@ -22,7 +26,7 @@ This game is a 2D puzzle/platformer in which the player takes on the role of a r
 
 <br />
 
-I received positive feedback from my peers at college about this game, and am proud of the work I put into it, I especially like the 2D assets and tilemaps, which I created myself using Aseprite.
+The game received positive feedback from my college peers, and I'm particularly proud of the 2D assets and tilemaps I crafted using Aseprite.
 
 ## Showcase
 The gallery below shows some screenshots from the game.

@@ -5,22 +5,26 @@ next: false
 
 # Surveillance State
 
-### My Role
-- Programming, UI Design & Implementation
+::: info My Role
+Sole Programmer
+:::
 
-### Created Using
-- Unity Engine
+::: info Software & Languages Used
 - C#
+- Unity Engine
 - Blender
-- Substance Painter
+:::
 
-### Achievements
-- 875+ views on itch.io
+::: info Achievements
+- 900+ views on itch.io
 - 230+ downloads on itch.io
 - 3 YouTube gameplay videos posted
+:::
 
 ## Overview
-I created this game as part of my college degree, where I challenged myself to learn the Unity engine and create a 3D game demo from scratch.
+::: tip Context
+I created Surveillance State as part of my college degree, where I challenged myself to learn the Unity engine and create a 3D game demo from scratch.
+:::
 
 <br />
 
@@ -28,7 +32,7 @@ This game is a first-person horror experience where the player must monitor secu
 
 <br />
 
-This was my first time creating a 3D game in Unity, and I learned a lot about the engine, 3D modelling and texturing, and I am proud of the positive reception the game received in the comments on itch.io.
+This was my first time creating a 3D game in Unity, and I learned a lot about the engine, 3D modelling and texturing, and programming in C#. I am proud of the positive reception the game received in comments on itch.io, and I am glad to have had the opportunity to learn more about the engine and developing 3D games.
 
 ## Showcase
 The gallery below shows some screenshots from the game.

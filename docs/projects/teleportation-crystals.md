@@ -5,21 +5,27 @@ next: false
 
 # Teleportation Crystals
 
-### My Role
-- Sole Programmer
+::: info My Role
+Sole Programmer
+:::
 
-### Created Using
+::: info Software & Languages Used
 - Java
+- IntelliJ IDEA
+:::
 
-### Achievements
-- 160+ downloads on Modrinth
+::: info Achievements
+- 210+ downloads on all platforms
+:::
 
 ## Overview
-I created a plugin for Minecraft servers that introduces a new method of transportation - the teleportation crystal.
+::: tip Context
+This plugin was developed as a way of learning Java programming, and was the first plugin I created for Minecraft servers.
+:::
 
 <br />
 
-Teleportation crystals are items that players can use to save a location, and teleport back there at any time - at the cost of the crystal's 'uses' durability.
+Teleportation Crystals introduces a new method of transportation - the teleportation crystal, items that players can use to save a location, and teleport back there at any time - at the cost of the crystal's 'uses' durability.
 
 <br />
 

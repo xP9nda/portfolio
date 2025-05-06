@@ -5,18 +5,27 @@ next: false
 
 # Ratventure
 
-### My Role
-- Sole Programmer
+::: info My Role
+Sole Programmer
+:::
 
-### Created Using
-- Godot Engine
+::: info Software & Languages Used
 - GDScript
+- Godot Engine
 - Blender
+:::
 
-### Achievements
+::: info Achievements
 - Achieved 2nd place in the game jam
+:::
 
 ## Overview
+::: tip Context
+This game was developed for a 10 day long game jam during my time at college, where I learned how to create a 3D game in the Godot Engine leveraging previous experience creating 2D games in the engine.
+:::
+
+<br />
+
 I participated in a 10 day long game jam whilst I was studying at college. I worked alone to create a 3D time-trials platformer game with a theme of 'Sewer'.
 
 <br />

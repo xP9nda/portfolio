@@ -1,8 +1,10 @@
 import { defineConfig } from 'vitepress'
+import blogPosts from '../src/data/blogPosts.json';
+import projects from '../src/data/projects.json';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Joshua's Portfolio",
+  title: "Joshua Cochrane",
   description: "Portfolio of Joshua Cochrane",
 
   base: '/',
@@ -10,9 +12,14 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
+    search: {
+      provider: 'local'
+    },
+
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Project Archive', link: '/archive' }
+      { text: 'Projects', link: '/projects' },
+      { text: 'Blog', link: '/blog' },
     ],
 
     sidebar: [
@@ -20,43 +27,84 @@ export default defineConfig({
         text: 'Main Links',
         items: [
           { text: 'Home', link: '/index' },
-          { text: 'Project Archive', link: '/archive'},
-        ]
-      },
-      {
-        text: 'All Projects',
-        collapsed: false,
-        items: [
-          { text: '🎓 CPPCrates', link: '/projects/cppcrates' },
-          { text: '🎓 Ropottery', link: 'projects/ropottery'},
-          { text: '🎓 Drill Defender', link: 'projects/drill-defender'},
-          { text: '🎓 Ratventure', link: 'projects/ratventure'},
-          { text: '💻 Ender Pouch', link: 'projects/ender-pouch'},
-          { text: '💻 2 Player Teamwork Puzzles Obby', link: 'projects/2-player-teamwork-puzzle'},
-          { text: '💻 Teleportation Crystals', link: 'projects/teleportation-crystals'},
-          { text: '🎓 Surveillance State', link: 'projects/surveillance-state'},
-          { text: '🎓 The Ghost in Me', link: 'projects/the-ghost-in-me'},
-          { text: '💻 NEF to JPG Converter', link: 'projects/nef-jpg-converter'},
-          { text: '💻 Thieves of Mind', link: 'projects/thieves-of-mind'},
-          { text: '💻 Graveyard Tycoon', link: 'projects/graveyard-tycoon'},
-          { text: '💻 Color Dash', link: 'projects/color-dash'},
+          { text: 'Projects', link: '/projects'},
+          { text: 'Blog', link: '/blog'},
         ]
       },
       {
         text: 'Quick Links',
         collapsed: false,
         items: [
-          { text: 'GitHub', link: 'https://github.com/xP9nda' },
-          { text: 'LinkedIn', link: 'https://www.linkedin.com/in/joshua-c-b24737266'},
-          { text: 'Email Me', link: 'mailto:joshuacochrane0405@gmail.com?subject=Portfolio Contact Request'},
+          { text: 'LinkedIn', link: 'https://linkedin.joshuacochrane.com'},
+          { text: 'GitHub', link: 'https://github.joshuacochrane.com' },
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/xP9nda' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/joshua-c-b24737266' },
+      { icon: 'linkedin', link: 'https://linkedin.joshuacochrane.com' },
+      { icon: 'github', link: 'https://github.joshuacochrane.com' },
 
+    ],
+  },
+
+  vite: {
+    plugins: [
+      {
+        name: 'vitepress-plugin-blog-data',
+        resolveId(id) {
+          if (id === 'virtual:blog-posts') {
+            return id;
+          }
+        },
+        async load(id) {
+          if (id === 'virtual:blog-posts') {
+            // Sort the imported blogPosts array by date (newest first)
+            const sortedPosts = [...blogPosts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+            return `export default ${JSON.stringify(sortedPosts)}`;
+          }
+        },
+      },
+      {
+        name: 'vitepress-plugin-projects-data', // Unique name for this plugin
+        resolveId(id) {
+          if (id === 'virtual:sorted-projects') { // New virtual module ID
+            return id;
+          }
+        },
+        async load(id) {
+          if (id === 'virtual:sorted-projects') {
+            // Assuming your projects data has a 'date' field for sorting
+            const sortedProjects = [...projects['other']].sort((a, b) => {
+              // Handle cases where date might be missing or invalid
+              const dateA = a.date ? new Date(a.date).getTime() : -Infinity;
+              const dateB = b.date ? new Date(b.date).getTime() : -Infinity;
+              return dateB - dateA; // Sort newest first
+            });
+            return `export default ${JSON.stringify(sortedProjects)}`;
+          }
+        },
+      },
+      {
+        name: 'vitepress-plugin-projects-featured-data', // Unique name for this plugin
+        resolveId(id) {
+          if (id === 'virtual:sorted-projects-featured') { // New virtual module ID
+            return id;
+          }
+        },
+        async load(id) {
+          if (id === 'virtual:sorted-projects-featured') {
+            // Assuming your projects data has a 'date' field for sorting
+            const sortedProjects = [...projects['featured']].sort((a, b) => {
+              // Handle cases where date might be missing or invalid
+              const dateA = a.date ? new Date(a.date).getTime() : -Infinity;
+              const dateB = b.date ? new Date(b.date).getTime() : -Infinity;
+              return dateB - dateA; // Sort newest first
+            });
+            return `export default ${JSON.stringify(sortedProjects)}`;
+          }
+        },
+      }
     ],
   },
 })

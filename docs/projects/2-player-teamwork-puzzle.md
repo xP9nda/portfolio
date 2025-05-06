@@ -5,27 +5,36 @@ next: false
 
 # 2 Player Teamwork Puzzles Obby
 
-### My Role
-- Programming, UI Design & Implementation
+::: info My Role
+Programming, UI Design & Implementation
+:::
 
-### Created Using
+::: info Software & Languages Used
 - Roblox Studio
 - Lua
+:::
 
-### Achievements
+::: info Achievements
 - 1K+ visits on Roblox
 - 90% positive like ratio
+:::
 
 ## Overview
-As a project under my Roblox studio, I created a 2 player teamwork puzzle obby game. The game is designed to be played by two players, who must work together to solve puzzles by pushing different buttons and complete the obby. The game features a variety of different puzzles that require players to communicate and work together to reach the end.
+::: tip Context
+This game was developed as a personal project during my free time in collaboration with my brother and a few friends. I was responsible for programming and UI design/implementation.
+:::
 
 <br />
 
-I developed this project alongside my brother, who helped with the design and testing of the levels. I also invited some friends to help design some levels, which added more variety to the puzzles in the final game and gave me some additional experience working with others on a project.
+As part of my Roblox studio projects, I created a 2-player teamwork puzzle obby. Players must collaborate to solve puzzles, press buttons, and complete the obby. The game includes diverse puzzles that emphasize communication and teamwork.
 
 <br />
 
-This game features some customisation options for players, such as chat tags and trails, which can be purchased for coins earned by completing levels.
+I developed this project with my brother, who contributed to level design and testing. Friends also helped design levels, adding variety and giving me experience in collaborative development.
+
+<br />
+
+The game features customization options like chat tags and trails, purchasable with coins earned by completing levels.
 
 ## Showcase
 The gallery below shows some screenshots from the game.

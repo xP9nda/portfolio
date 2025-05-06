@@ -5,19 +5,24 @@ next: false
 
 # Graveyard Tycoon
 
-### My Role
-- Programming, UI Design & Implementation
+::: info My Role
+Programming, UI Design & Implementation
+:::
 
-### Created Using
-- Roblox Studio
+::: info Software & Languages Used
 - Lua
+- Roblox Studio
+:::
 
-### Achievements
-- 15.4K+ visits on Roblox
+::: info Achievements
+- 18.9K+ visits on Roblox
 - 80% positive like ratio
+:::
 
 ## Overview
-My brother and I had the idea to put a twist on the 'typical' Roblox tycoon experience. Normally, these kinds of games have you purely build up a base and earn money, but we wanted to add a bit more depth to the gameplay.
+::: tip Context
+Graveyard Tycoon was developed as a personal project during my free time in collaboration with my brother. We had the idea to put a twist on the typical Roblox tycoon experience by adding a bit more depth to the gameplay, and wanted to see what we could come up with.
+:::
 
 <br />
 

@@ -5,20 +5,29 @@ next: false
 
 # Thieves of Mind
 
-### My Role
-- Programming, UI Design & Implementation
+::: info My Role
+Programming, UI Design & Implementation
+:::
 
-### Created Using
-- Roblox Studio
+::: info Software & Languages Used
 - Lua
+- Roblox Studio
+:::
 
-### Achievements
+::: info Achievements
 - 300+ visits on Roblox
 - 88% positive like ratio
 - Achieved 2nd place in the game jam
+:::
 
 ## Overview
-Created as a project under my Roblox studio to participate in a 24 hour game jam with the theme 'Mind Control', Thieves of Mind has you play as an alien marauder with mind control abilities - taking control of the minds of residents in the strange place you find yourself in. The game allows players to steal the belongings of residents, selling them to earn money to upgrade their supernatural abilities.
+::: tip Context
+Created as part of a 24 hour game jam with the theme 'Mind Control', Thieves of Mind was developed in collaboration with my brother. I was responsible for the programming and UI design/implementation, while my brother focused on the map design.
+:::
+
+<br />
+
+Thieves of Mind has you play as an alien marauder with mind control abilities - taking control of the minds of residents in the strange place you find yourself in. The game allows players to steal the belongings of residents, selling them to earn money to upgrade their supernatural abilities.
 
 <br />
 
@@ -26,7 +35,7 @@ This game was made alongside my brother, who did the map design. I was responsib
 
 <br />
 
-It was a fun project to work on, and I didn't take it too seriously, which allowed me to experiment with new ideas and features that I had never tried before. I learned a lot about making a game in such a short time frame and it was a really enjoyable experience.
+It was a fun project to work on which I didn't take too seriously, allowing me to experiment with new ideas and features that I had never tried before. I learned a lot about making a game in such a short time frame and it was a really enjoyable and eye-opening experience.
 
 
 ## Showcase
