@@ -35,15 +35,15 @@ export default defineConfig({
         text: 'Quick Links',
         collapsed: false,
         items: [
-          { text: 'LinkedIn', link: 'https://linkedin.joshuacochrane.com'},
-          { text: 'GitHub', link: 'https://github.joshuacochrane.com' },
+          { text: 'LinkedIn', link: 'https://www.linkedin.com/in/joshua-c-b24737266/'},
+          { text: 'GitHub', link: 'https://github.com/xP9nda' },
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'linkedin', link: 'https://linkedin.joshuacochrane.com' },
-      { icon: 'github', link: 'https://github.joshuacochrane.com' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/joshua-c-b24737266/' },
+      { icon: 'github', link: 'https://github.com/xP9nda' },
 
     ],
   },
