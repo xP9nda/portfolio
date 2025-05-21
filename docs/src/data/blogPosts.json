@@ -1,10 +1,10 @@
 [
     {
-      "title": "My First Blog Post",
-      "slug": "/blog/first-blog-post",
-      "date": "2025-01-01",
-      "excerpt": "Description",
-      "tags": ["1", "2", "3"],
-      "image": "image.png"
+      "title": "Persistent Data in Godot",
+      "slug": "/blog/persistent-data-in-godot",
+      "date": "2025-05-21",
+      "excerpt": "A guide on how to create persistent data in Godot using the ConfigFile class, including saving and loading data.",
+      "tags": ["gdscript", "godot"],
+      "image": "https://i.imgur.com/QrgVtkY.png"
     }
   ]

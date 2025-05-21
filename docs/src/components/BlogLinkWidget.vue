@@ -37,6 +37,7 @@ const hoveredIndex = ref(null);
 .blog-widgets {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  max-width: 600px;
   gap: 16px;
 }
 
@@ -90,18 +91,7 @@ const hoveredIndex = ref(null);
   flex-direction: column;
 }
 
-.content h3.vp-doc-h3 {
-  margin-top: 0;
-  margin-bottom: 8px;
-  font-size: 1.1em;
-  color: var(--vp-c-text-strong);
-  font-weight: 500;
-}
-
 .content .excerpt {
-  margin-bottom: 8px;
-  color: var(--vp-c-text-strong);
-  font-size: 0.9em;
-  line-height: 1.5;
+  color: var(--vp-c-text-1, black);
 }
 </style>

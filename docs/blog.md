@@ -7,12 +7,8 @@ hero:
 
 ---
 
-<!-- <script setup>
+<script setup>
 import BlogLinkWidget from './src/components/BlogLinkWidget.vue';
-</script> -->
+</script>
 
-::: warning Under Construction
-This page is under construction! Blog posts will be added here in the future.
-:::
-
-<!-- <BlogLinkWidget /> -->
+<BlogLinkWidget />
