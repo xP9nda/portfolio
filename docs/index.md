@@ -63,12 +63,33 @@ features:
 <div class="text-block">
   I am a programmer with a passion for game development and creating game mechanics.
 
-  Currently I am a student at <a href="https://www.staffs.ac.uk">University of Staffordshire</a>, studying BSc (Hons) Games Development.
+  Currently I am a student at <a href="https://www.staffs.ac.uk">University of Staffordshire</a>, studying <a href="https://www.staffs.ac.uk/course/computer-games-development-bsc">BSc (Hons) Games Development.</a>
 
   Alongside my studies, I work on personal projects through my indie studio on Roblox, pixl games, which I run with my brother. In this role, I am responsible for programming and UI design/implementations.
 </div>
 
 ## Experience
+<div class="section">
+  <a class="full-link not-clickable"></a>
+
+  <div class="text-block widget">
+    <div class="left-side"> 
+      <div class="year">SEP 2024</div>
+    </div>
+    <div class="content">
+      <h3>Freelance Minecraft Plugin Developer</h3>
+      <ul>
+        <li>Developed a modular Minecraft server plugin in Java that introduced a series of customizable commands for converting lower-tier items (e.g., ingots) into condensed forms (e.g., blocks).</li>
+        <li>Implemented a config-driven system that allowed server owners to dynamically define commands with unique permissions, messages, and item conversions — all without modifying the codebase.</li>
+      </ul>
+      <div class="tags">
+        <span>java</span>
+        <span>intellij idea</span>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="section">
   <a target="_blank" href="https://www.roblox.com/communities/9481702" class="full-link"></a>
   
@@ -77,11 +98,11 @@ features:
         <div class="year">DEC 2021 - PRESENT</div>
     </div>
     <div class="content">
-      <h3><a href="https://www.example.com">pixl games</a></h3>
+      <h3>pixl games</h3>
       <p>Developed and worked on many games alongside my brother on the Roblox platform. I am responsible for programming and UI design & implementation.</p>
       <div class="tags">
-        <span>Roblox Studio</span>
-        <span>Lua</span>
+        <span>lua</span>
+        <span>roblox studio</span>
       </div>
     </div>
   </div>
@@ -96,12 +117,12 @@ features:
       <div class="year">SEP 2024 - PRESENT</div>
     </div>
     <div class="content">
-      <h3><a href="https://www.staffs.ac.uk">University of Staffordshire</a></h3>
-      <p>I am a first year (level 4) student studying Computer Games Development BSc (Hons) at University of Staffordshire, where I focus primarily on in-engine development work. I work with industry standard tools like Unity and Unreal, and have the opportunity to collaborate with artists and designers to build my professional portfolio.</p>
+      <h3>University of Staffordshire</h3>
+      <p>I am a first year (level 4) student studying BSc (Hons) Computer Games Development at University of Staffordshire, where I focus primarily on in-engine development work. I work with industry standard tools like Unity and Unreal, and have the opportunity to collaborate with artists and designers to build my professional portfolio.</p>
       <div class="tags">
-        <span>Unreal Engine 5</span>
-        <span>C++</span>
-        <span>C#</span>
+        <span>c++</span>
+        <span>c#</span>
+        <span>unreal engine 5</span>
       </div>
     </div>
   </div>
@@ -115,12 +136,12 @@ features:
       <div class="year">SEP 2022 - JUN 2024</div>
     </div>
     <div class="content">
-      <h3><a href="https://www.loucoll.ac.uk">Loughborough College</a></h3>
+      <h3>Loughborough College</h3>
       <p>I completed a BTEC Level 3 in Creative Media Practise for Games Development at Loughborough College, where I got hands on experience with tools like Unreal Engine 5, Blender, and the Adobe creative suite. I developed game projects to build a portfolio and gained a strong foundation in creative and technical skills.</p>
       <div class="tags">
-        <span>Unreal Engine 5</span>
-        <span>Photoshop</span>
-        <span>Blueprints</span>
+        <span>blueprints</span>
+        <span>unreal engine 5</span>
+        <span>photoshop</span>
       </div>
     </div>
   </div>

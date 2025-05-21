@@ -5,6 +5,7 @@
       "slug": "/projects/shape-shooter",
       "date": "2025-02",
       "excerpt": "A 2D top-down shooter where players must shoot, survive, and upgrade their ship to defeat waves of enemies.",
+      "type": "Unity Game | University Project",
       "tags": ["c#", "unity", "rider"],
       "image": "https://i.imgur.com/dBqPVwB.png"
     },
@@ -13,6 +14,7 @@
       "slug": "/projects/cppcrates",
       "date": "2024-11",
       "excerpt": "A console based C++ game about opening crates and earning money.",
+      "type": "C++ Console Game | University Project",
       "tags": ["c++", "rider"],
       "image": "https://i.imgur.com/XBuuBHq.png"
     },
@@ -21,16 +23,27 @@
       "slug": "/projects/ratventure",
       "date": "2024-01",
       "excerpt": "A 3D time-trial platformer created as part of a 10 day game jam, where players venture into sewer levels as a rat with one goal: collect the cheese as fast as possible.",
+      "type": "Godot Game | Game Jam Project",
       "tags": ["gdscript", "godot", "blender"],
       "image": "https://img.itch.zone/aW1hZ2UvMjQ0OTcxOS8xNDU4NTg4Ny5wbmc=/original/DEmgVx.png"
     }
   ],
   "other": [
     {
+      "title": "Pickup Filter",
+      "slug": "/projects/pickup-filter",
+      "date": "2025-03",
+      "excerpt": "A Minecraft server plugin adding an extensive item filter pickup solution featuring customisable profiles and clean menus.",
+      "type": "Minecraft Server Plugin | Personal Project",
+      "tags": ["java", "intellij idea"],
+      "image": "https://cdn.builtbybit.com/carousel_images/1766/1766295-d8130887a9bcb32772ed3a00604ad381.jpg?variant=card"
+    },
+    {
       "title": "Sprout & Shellshock",
       "slug": "/projects/sprout-and-shellshock",
       "date": "2025-02",
       "excerpt": "A 3D game developed from a university framework with a tank as the player that I put a spin on, turning it into a farming simulator.",
+      "type": "Unreal Engine 5 Game | University Project",
       "tags": ["blueprints", "unreal engine 5"],
       "image": "https://i.imgur.com/pBHPHOV.jpeg"
     },
@@ -39,6 +52,7 @@
       "slug": "/projects/drill-defender",
       "date": "2024-09",
       "excerpt": "A game jam prototype where players explore a procedurally generated asteroid, gathering resources and upgrades as the last robot on a lost mining outpost.",
+      "type": "Godot Prototype | Game Jam Project",
       "tags": ["gdscript", "godot"],
       "image": "https://i.imgur.com/uNVVM7c.png"
     },
@@ -47,6 +61,7 @@
       "slug": "/projects/ender-pouch",
       "date": "2023-10",
       "excerpt": "A Minecraft server plugin adding ender chest features like portable access, staff utilities, and more.",
+      "type": "Minecraft Server Plugin | Personal Project",
       "tags": ["java", "intellij idea"],
       "image": "https://cdn.modrinth.com/data/xDSJUBkm/images/a23f74709bd4ccf9cab286f61875423c8ba3eb50.png"
     },
@@ -55,6 +70,7 @@
       "slug": "/projects/2-player-teamwork-puzzle",
       "date": "2023-10",
       "excerpt": "A teamwork obstacle course game where players must work together to solve puzzles by pushing buttons and opening pathways to reach the end of 12 distinct levels.",
+      "type": "Roblox Game | Personal Project",
       "tags": ["lua", "roblox studio"],
       "image": "https://tr.rbxcdn.com/180DAY-887b57ecb2158ecbaa59b41e0b89928c/768/432/Image/Webp/noFilter"
     },
@@ -63,6 +79,7 @@
       "slug": "/projects/teleportation-crystals",
       "date": "2023-06",
       "excerpt": "A Minecraft server plugin adding teleportation crystals, an item that allows players to store and return to a location.",
+      "type": "Minecraft Server Plugin | Personal Project",
       "tags": ["java", "intellij idea"],
       "image": "https://cdn.modrinth.com/data/oTh4M5Qa/images/d614025ae227beba2ba5ced11198e38d14670496.png"
     },
@@ -71,6 +88,7 @@
       "slug": "/projects/surveillance-state",
       "date": "2023-05",
       "excerpt": "A 3D Unity game created for a college project, where players monitor surveillance cameras to find and report anomalous 'incidents' whilst avoiding losing their mind.",
+      "type": "Unity Game | College Project",
       "tags": ["c#", "unity", "blender"],
       "image": "https://img.itch.zone/aW1hZ2UvMjA4OTQxMC8xMjI5MDY1NC5wbmc=/original/E9ZqBL.png"
     },
@@ -79,6 +97,7 @@
       "slug": "/projects/the-ghost-in-me",
       "date": "2023-03",
       "excerpt": "A 2D puzzle-platformer developed during a 5-day game jam, where players embody a reaper using ghostly powers to guide souls, unlock doors, evade obstacles, and help spirits cross over.",
+      "type": "Unity Game | Game Jam Project",
       "tags": ["c#", "unity", "aseprite"],
       "image": "https://img.itch.zone/aW1hZ2UvMjA4NTEyMC8xMjI2NTA5OS5wbmc=/original/lEsJeK.png"
     },
@@ -87,6 +106,7 @@
       "slug": "/projects/thieves-of-mind",
       "date": "2023-02",
       "excerpt": "A Roblox game made in a 24-hour game jam with the theme 'mind control', where players, as alien marauders, use mind control to possess townsfolk, steal valuables, and upgrade supernatural abilities.",
+      "type": "Roblox Game | Game Jam Project",
       "tags": ["lua", "roblox studio"],
       "image": "https://tr.rbxcdn.com/180DAY-32d4e4066c4b0e5b451935ac758a5019/768/432/Image/Webp/noFilter"
     },
@@ -95,6 +115,7 @@
       "slug": "/projects/graveyard-tycoon",
       "date": "2022-12",
       "excerpt": "A Roblox game that expands on the typical tycoon experience, where players collect and sell bones to upgrade their graveyard, unlock areas, and enhance abilities.",
+      "type": "Roblox Game | Personal Project",
       "tags": ["lua", "roblox studio"],
       "image": "https://tr.rbxcdn.com/180DAY-41b2153f6742cec1e3764f517480f004/768/432/Image/Webp/noFilter"
     }

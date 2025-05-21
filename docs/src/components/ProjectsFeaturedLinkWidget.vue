@@ -23,6 +23,7 @@ const hoveredIndex = ref(null);
       </div>
       <div class="content">
         <h3>{{ post.title }}</h3>
+        <p class="project-type"><i>{{ post.type }}</i></p>
         <p class="excerpt" v-if="post.excerpt">{{ post.excerpt }}</p>
         <div v-if="post.tags && post.tags.length > 0" class="tags">
           <span v-for="tag in post.tags" :key="tag" class="tag">{{ tag }}</span>
@@ -31,6 +32,7 @@ const hoveredIndex = ref(null);
     </a>
   </div>
 </template>
+
 
 
 <style scoped>
@@ -86,14 +88,17 @@ const hoveredIndex = ref(null);
   border-radius: 8px;
 }
 
-.content h3 {
-  margin-top: 0;
-  margin-bottom: 8px;
-  color: var(--vp-c-text-strong);
-}
-
 .content .excerpt {
   color: var(--vp-c-text-1, black);
+}
+
+.project-type {
+  display: inline-block;
+  color: #9989d2;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+  font-style: italic;
 }
 
 </style>
